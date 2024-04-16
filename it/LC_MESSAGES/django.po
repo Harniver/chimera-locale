@@ -1,0 +1,43 @@
+# Chimera WebApp translation strings.
+# Copyright (C) 2024
+# This file is distributed under the MIT license.
+# Giorgio Audrito <giorgio.audrito@gmail.com>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-16 22:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: chimera/templates/home.html:78
+msgid ""
+"made with <i class=\"fa fa-heart pulse\"></i> by Giorgio Audrito - © 2024 "
+"all rights reserved"
+msgstr ""
+"fatto con <i class=\"fa fa-heart pulse\"></i> da Giorgio Audrito - © 2024 "
+"tutti i diritti riservati"
+
+#: chimera/views.py:92
+msgid "settings"
+msgstr "ambientazioni"
+
+#: chimera/views.py:92
+msgid "campaigns"
+msgstr "campagne"
+
+#: chimera/views.py:92
+msgid "characters"
+msgstr "personaggi"
+
+#: chimera/views.py:92
+msgid "items"
+msgstr "oggetti"
