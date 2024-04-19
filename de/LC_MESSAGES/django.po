@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-16 22:51+0200\n"
+"POT-Creation-Date: 2024-04-19 08:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,267 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-#: chimera/templates/home.html:78
+
+#: calendars/models.py:29
+msgid "Year"
+msgstr ""
+
+#: calendars/models.py:54
+#, python-format
+msgid ""
+"%(hour)02d.%(min)02d:%(sec)02d.%(milli)04d, %(weekday)s %(month)s %(day)s, "
+"%(year)s"
+msgstr ""
+
+#: calendars/models.py:55
+#, python-format
+msgid "%(hour)02d.%(min)02d:%(sec)02d, %(weekday)s %(month)s %(day)s, %(year)s"
+msgstr ""
+
+#: calendars/models.py:56
+#, python-format
+msgid "%(hour)02d.%(min)02d, %(weekday)s %(month)s %(day)s, %(year)s"
+msgstr ""
+
+#: calendars/models.py:57
+#, python-format
+msgid "%(hour)02d.00, %(weekday)s %(month)s %(day)s, %(year)s"
+msgstr ""
+
+#: calendars/models.py:58
+#, python-format
+msgid "%(weekday)s %(month)s %(day)s, %(year)s"
+msgstr ""
+
+#: calendars/models.py:59 calendars/models.py:127
+#, python-format
+msgid "%(month)s %(year)s"
+msgstr ""
+
+#: calendars/models.py:63
+msgid "January"
+msgstr ""
+
+#: calendars/models.py:64
+msgid "February"
+msgstr ""
+
+#: calendars/models.py:65
+msgid "March"
+msgstr ""
+
+#: calendars/models.py:66
+msgid "April"
+msgstr ""
+
+#: calendars/models.py:67
+msgid "May"
+msgstr ""
+
+#: calendars/models.py:68
+msgid "June"
+msgstr ""
+
+#: calendars/models.py:69
+msgid "July"
+msgstr ""
+
+#: calendars/models.py:70
+msgid "August"
+msgstr ""
+
+#: calendars/models.py:71
+msgid "September"
+msgstr ""
+
+#: calendars/models.py:72
+msgid "October"
+msgstr ""
+
+#: calendars/models.py:73
+msgid "November"
+msgstr ""
+
+#: calendars/models.py:74
+msgid "December"
+msgstr ""
+
+#: calendars/models.py:77
+msgid "Monday"
+msgstr ""
+
+#: calendars/models.py:78
+msgid "Tuesday"
+msgstr ""
+
+#: calendars/models.py:79
+msgid "Wednesday"
+msgstr ""
+
+#: calendars/models.py:80
+msgid "Thursday"
+msgstr ""
+
+#: calendars/models.py:81
+msgid "Friday"
+msgstr ""
+
+#: calendars/models.py:82
+msgid "Saturday"
+msgstr ""
+
+#: calendars/models.py:83
+msgid "Sunday"
+msgstr ""
+
+#: calendars/models.py:86
+msgid "BC"
+msgstr ""
+
+#: calendars/models.py:87
+msgid "AD"
+msgstr ""
+
+#: calendars/models.py:122
+#, python-format
+msgid ""
+"%(hour)02d.%(min)02d:%(sec)02d.%(milli)04d, %(month)s %(weekday)s %(day)s, "
+"%(year)s"
+msgstr ""
+
+#: calendars/models.py:123
+#, python-format
+msgid "%(hour)02d.%(min)02d:%(sec)02d, %(month)s %(weekday)s %(day)s, %(year)s"
+msgstr ""
+
+#: calendars/models.py:124
+#, python-format
+msgid "%(hour)02d.%(min)02d, %(month)s %(weekday)s %(day)s, %(year)s"
+msgstr ""
+
+#: calendars/models.py:125
+#, python-format
+msgid "%(hour)02d.00, %(month)s %(weekday)s %(day)s, %(year)s"
+msgstr ""
+
+#: calendars/models.py:126
+#, python-format
+msgid "%(month)s %(weekday)s %(day)s, %(year)s"
+msgstr ""
+
+#: calendars/models.py:131
+msgid "Vintagearious"
+msgstr ""
+
+#: calendars/models.py:132
+msgid "Fogarious"
+msgstr ""
+
+#: calendars/models.py:133
+msgid "Frostarious"
+msgstr ""
+
+#: calendars/models.py:134
+msgid "Snowous"
+msgstr ""
+
+#: calendars/models.py:135
+msgid "Rainous"
+msgstr ""
+
+#: calendars/models.py:136
+msgid "Windous"
+msgstr ""
+
+#: calendars/models.py:137
+msgid "Buddal"
+msgstr ""
+
+#: calendars/models.py:138
+msgid "Floweral"
+msgstr ""
+
+#: calendars/models.py:139
+msgid "Meadowal"
+msgstr ""
+
+#: calendars/models.py:140
+msgid "Reapidor"
+msgstr ""
+
+#: calendars/models.py:141
+msgid "Heatidor"
+msgstr ""
+
+#: calendars/models.py:142
+msgid "Fruitidor"
+msgstr ""
+
+#: calendars/models.py:145
+msgid "Primidi"
+msgstr ""
+
+#: calendars/models.py:146
+msgid "Duodi"
+msgstr ""
+
+#: calendars/models.py:147
+msgid "Tridi"
+msgstr ""
+
+#: calendars/models.py:148
+msgid "Quartidi"
+msgstr ""
+
+#: calendars/models.py:149
+msgid "Quintidi"
+msgstr ""
+
+#: calendars/models.py:150
+msgid "Sextidi"
+msgstr ""
+
+#: calendars/models.py:151
+msgid "Septidi"
+msgstr ""
+
+#: calendars/models.py:152
+msgid "Octidi"
+msgstr ""
+
+#: calendars/models.py:153
+msgid "Nonidi"
+msgstr ""
+
+#: calendars/models.py:154
+msgid "Decadi"
+msgstr ""
+
+#: calendars/models.py:157
+msgid "Celebration of Virtue"
+msgstr ""
+
+#: calendars/models.py:158
+msgid "Celebration of Talent"
+msgstr ""
+
+#: calendars/models.py:159
+msgid "Celebration of Labour"
+msgstr ""
+
+#: calendars/models.py:160
+msgid "Celebration of Convictions"
+msgstr ""
+
+#: calendars/models.py:161
+msgid "Celebration of Honors"
+msgstr ""
+
+#: calendars/models.py:162
+msgid "Celebration of the Revolution"
+msgstr ""
+
+#: chimera/templates/home.html:80
 msgid ""
 "made with <i class=\"fa fa-heart pulse\"></i> by Giorgio Audrito - © 2024 "
 "all rights reserved"
@@ -25,18 +285,40 @@ msgstr ""
 "mit <i class=\"fa fa-heart pulse\"></i> gemacht von Giorgio Audrito - © 2024 "
 "alle rechte vorbehalten"
 
-#: chimera/views.py:92
+#: chimera/views.py:108 setting/views.py:12
 msgid "settings"
 msgstr "einstellungen"
 
-#: chimera/views.py:92
+#: chimera/views.py:108
 msgid "campaigns"
 msgstr "kampagnen"
 
-#: chimera/views.py:92
+#: chimera/views.py:108
 msgid "characters"
 msgstr "charaktere"
 
-#: chimera/views.py:92
+#: chimera/views.py:108
 msgid "items"
 msgstr "gegenstände"
+
+#: social/tables.py:11 social/tables.py:26
+msgid "Name"
+msgstr ""
+
+#: social/tables.py:12
+msgid "Least score"
+msgstr ""
+
+#: social/tables.py:13
+msgid "Original only"
+msgstr ""
+
+#: social/views.py:18
+#, python-brace-format
+msgid "<h3>My {element}</h3>"
+msgstr "<h3>Meine {element}</h3>"
+
+#: social/views.py:19
+#, python-brace-format
+msgid "<h3>Other {element}</h3>"
+msgstr "<h3>Andere {element}</h3>"
