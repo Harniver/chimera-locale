@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-19 08:41+0000\n"
+"POT-Creation-Date: 2024-04-19 14:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,26 +28,28 @@ msgid ""
 "%(hour)02d.%(min)02d:%(sec)02d.%(milli)04d, %(weekday)s %(month)s %(day)s, "
 "%(year)s"
 msgstr ""
+"%(hour)02d.%(min)02d:%(sec)02d.%(milli)04d, %(weekday)s %(day)s %(month)s, "
+"%(year)s"
 
 #: calendars/models.py:55
 #, python-format
 msgid "%(hour)02d.%(min)02d:%(sec)02d, %(weekday)s %(month)s %(day)s, %(year)s"
-msgstr ""
+msgstr "%(hour)02d.%(min)02d:%(sec)02d, %(weekday)s %(day)s %(month)s, %(year)s"
 
 #: calendars/models.py:56
 #, python-format
 msgid "%(hour)02d.%(min)02d, %(weekday)s %(month)s %(day)s, %(year)s"
-msgstr ""
+msgstr "%(hour)02d.%(min)02d, %(weekday)s %(day)s %(month)s, %(year)s"
 
 #: calendars/models.py:57
 #, python-format
 msgid "%(hour)02d.00, %(weekday)s %(month)s %(day)s, %(year)s"
-msgstr ""
+msgstr "%(hour)02d.00, %(weekday)s %(day)s %(month)s, %(year)s"
 
 #: calendars/models.py:58
 #, python-format
 msgid "%(weekday)s %(month)s %(day)s, %(year)s"
-msgstr ""
+msgstr "%(weekday)s %(day)s %(month)s, %(year)s"
 
 #: calendars/models.py:59 calendars/models.py:127
 #, python-format
@@ -131,12 +133,14 @@ msgid "Sunday"
 msgstr "Domenica"
 
 #: calendars/models.py:86
-msgid "BC"
-msgstr "AC"
+#, python-format
+msgid "%(year)s BC"
+msgstr "%(year)s AC"
 
 #: calendars/models.py:87
-msgid "AD"
-msgstr "DC"
+#, python-format
+msgid "AD %(year)s"
+msgstr "%(year)s DC"
 
 #: calendars/models.py:122
 #, python-format
@@ -285,7 +289,7 @@ msgstr ""
 "fatto con <i class=\"fa fa-heart pulse\"></i> da Giorgio Audrito - © 2024 "
 "tutti i diritti riservati"
 
-#: chimera/views.py:108 setting/views.py:12
+#: chimera/views.py:108 setting/views.py:13
 msgid "settings"
 msgstr "ambientazioni"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-19 08:41+0000\n"
+"POT-Creation-Date: 2024-04-19 14:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -132,11 +132,13 @@ msgid "Sunday"
 msgstr ""
 
 #: calendars/models.py:86
-msgid "BC"
+#, python-format
+msgid "%(year)s BC"
 msgstr ""
 
 #: calendars/models.py:87
-msgid "AD"
+#, python-format
+msgid "AD %(year)s"
 msgstr ""
 
 #: calendars/models.py:122
@@ -286,7 +288,7 @@ msgstr ""
 "hecho con <i class=\"fa fa-heart pulse\"></i> por Giorgio Audrito - © 2024 "
 "reservados todos los derechos"
 
-#: chimera/views.py:108 setting/views.py:12
+#: chimera/views.py:108 setting/views.py:13
 msgid "settings"
 msgstr "escenarios"
 
