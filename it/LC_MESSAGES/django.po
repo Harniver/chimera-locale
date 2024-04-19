@@ -56,87 +56,87 @@ msgstr ""
 
 #: calendars/models.py:63
 msgid "January"
-msgstr ""
+msgstr "Gennaio"
 
 #: calendars/models.py:64
 msgid "February"
-msgstr ""
+msgstr "Febbraio"
 
 #: calendars/models.py:65
 msgid "March"
-msgstr ""
+msgstr "Marzo"
 
 #: calendars/models.py:66
 msgid "April"
-msgstr ""
+msgstr "Aprile"
 
 #: calendars/models.py:67
 msgid "May"
-msgstr ""
+msgstr "Maggio"
 
 #: calendars/models.py:68
 msgid "June"
-msgstr ""
+msgstr "Giugno"
 
 #: calendars/models.py:69
 msgid "July"
-msgstr ""
+msgstr "Luglio"
 
 #: calendars/models.py:70
 msgid "August"
-msgstr ""
+msgstr "Agosto"
 
 #: calendars/models.py:71
 msgid "September"
-msgstr ""
+msgstr "Settembre"
 
 #: calendars/models.py:72
 msgid "October"
-msgstr ""
+msgstr "Ottobre"
 
 #: calendars/models.py:73
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: calendars/models.py:74
 msgid "December"
-msgstr ""
+msgstr "Dicembre"
 
 #: calendars/models.py:77
 msgid "Monday"
-msgstr ""
+msgstr "Lunedì"
 
 #: calendars/models.py:78
 msgid "Tuesday"
-msgstr ""
+msgstr "Martedì"
 
 #: calendars/models.py:79
 msgid "Wednesday"
-msgstr ""
+msgstr "Mercoledì"
 
 #: calendars/models.py:80
 msgid "Thursday"
-msgstr ""
+msgstr "Giovedì"
 
 #: calendars/models.py:81
 msgid "Friday"
-msgstr ""
+msgstr "Venerdì"
 
 #: calendars/models.py:82
 msgid "Saturday"
-msgstr ""
+msgstr "Sabato"
 
 #: calendars/models.py:83
 msgid "Sunday"
-msgstr ""
+msgstr "Domenica"
 
 #: calendars/models.py:86
 msgid "BC"
-msgstr ""
+msgstr "AC"
 
 #: calendars/models.py:87
 msgid "AD"
-msgstr ""
+msgstr "DC"
 
 #: calendars/models.py:122
 #, python-format
