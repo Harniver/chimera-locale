@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-19 14:21+0000\n"
+"POT-Creation-Date: 2024-04-20 16:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Year"
 msgstr "Anno"
 
-#: calendars/models.py:54
+#: calendars/models.py:56
 #, python-format
 msgid ""
 "%(hour)02d.%(min)02d:%(sec)02d.%(milli)04d, %(weekday)s %(month)s %(day)s, "
@@ -31,255 +31,260 @@ msgstr ""
 "%(hour)02d.%(min)02d:%(sec)02d.%(milli)04d, %(weekday)s %(day)s %(month)s, "
 "%(year)s"
 
-#: calendars/models.py:55
+#: calendars/models.py:57
 #, python-format
 msgid "%(hour)02d.%(min)02d:%(sec)02d, %(weekday)s %(month)s %(day)s, %(year)s"
-msgstr "%(hour)02d.%(min)02d:%(sec)02d, %(weekday)s %(day)s %(month)s, %(year)s"
+msgstr ""
+"%(hour)02d.%(min)02d:%(sec)02d, %(weekday)s %(day)s %(month)s, %(year)s"
 
-#: calendars/models.py:56
+#: calendars/models.py:58
 #, python-format
 msgid "%(hour)02d.%(min)02d, %(weekday)s %(month)s %(day)s, %(year)s"
 msgstr "%(hour)02d.%(min)02d, %(weekday)s %(day)s %(month)s, %(year)s"
 
-#: calendars/models.py:57
+#: calendars/models.py:59
 #, python-format
 msgid "%(hour)02d.00, %(weekday)s %(month)s %(day)s, %(year)s"
 msgstr "%(hour)02d.00, %(weekday)s %(day)s %(month)s, %(year)s"
 
-#: calendars/models.py:58
+#: calendars/models.py:60
 #, python-format
 msgid "%(weekday)s %(month)s %(day)s, %(year)s"
 msgstr "%(weekday)s %(day)s %(month)s, %(year)s"
 
-#: calendars/models.py:59 calendars/models.py:127
+#: calendars/models.py:61 calendars/models.py:131
 #, python-format
 msgid "%(month)s %(year)s"
 msgstr ""
 
-#: calendars/models.py:63
+#: calendars/models.py:65
 msgid "January"
 msgstr "Gennaio"
 
-#: calendars/models.py:64
+#: calendars/models.py:66
 msgid "February"
 msgstr "Febbraio"
 
-#: calendars/models.py:65
+#: calendars/models.py:67
 msgid "March"
 msgstr "Marzo"
 
-#: calendars/models.py:66
+#: calendars/models.py:68
 msgid "April"
 msgstr "Aprile"
 
-#: calendars/models.py:67
+#: calendars/models.py:69
 msgid "May"
 msgstr "Maggio"
 
-#: calendars/models.py:68
+#: calendars/models.py:70
 msgid "June"
 msgstr "Giugno"
 
-#: calendars/models.py:69
+#: calendars/models.py:71
 msgid "July"
 msgstr "Luglio"
 
-#: calendars/models.py:70
+#: calendars/models.py:72
 msgid "August"
 msgstr "Agosto"
 
-#: calendars/models.py:71
+#: calendars/models.py:73
 msgid "September"
 msgstr "Settembre"
 
-#: calendars/models.py:72
+#: calendars/models.py:74
 msgid "October"
 msgstr "Ottobre"
 
-#: calendars/models.py:73
+#: calendars/models.py:75
 msgid "November"
 msgstr "Novembre"
 
-#: calendars/models.py:74
+#: calendars/models.py:76
 msgid "December"
 msgstr "Dicembre"
 
-#: calendars/models.py:77
+#: calendars/models.py:79
 msgid "Monday"
 msgstr "Lunedì"
 
-#: calendars/models.py:78
+#: calendars/models.py:80
 msgid "Tuesday"
 msgstr "Martedì"
 
-#: calendars/models.py:79
+#: calendars/models.py:81
 msgid "Wednesday"
 msgstr "Mercoledì"
 
-#: calendars/models.py:80
+#: calendars/models.py:82
 msgid "Thursday"
 msgstr "Giovedì"
 
-#: calendars/models.py:81
+#: calendars/models.py:83
 msgid "Friday"
 msgstr "Venerdì"
 
-#: calendars/models.py:82
+#: calendars/models.py:84
 msgid "Saturday"
 msgstr "Sabato"
 
-#: calendars/models.py:83
+#: calendars/models.py:85
 msgid "Sunday"
 msgstr "Domenica"
 
-#: calendars/models.py:86
+#: calendars/models.py:88
 #, python-format
 msgid "%(year)s BC"
 msgstr "%(year)s AC"
 
-#: calendars/models.py:87
+#: calendars/models.py:89
 #, python-format
 msgid "AD %(year)s"
 msgstr "%(year)s DC"
 
-#: calendars/models.py:122
+#: calendars/models.py:126
 #, python-format
 msgid ""
 "%(hour)02d.%(min)02d:%(sec)02d.%(milli)04d, %(month)s %(weekday)s %(day)s, "
 "%(year)s"
 msgstr ""
 
-#: calendars/models.py:123
+#: calendars/models.py:127
 #, python-format
 msgid "%(hour)02d.%(min)02d:%(sec)02d, %(month)s %(weekday)s %(day)s, %(year)s"
 msgstr ""
 
-#: calendars/models.py:124
+#: calendars/models.py:128
 #, python-format
 msgid "%(hour)02d.%(min)02d, %(month)s %(weekday)s %(day)s, %(year)s"
 msgstr ""
 
-#: calendars/models.py:125
+#: calendars/models.py:129
 #, python-format
 msgid "%(hour)02d.00, %(month)s %(weekday)s %(day)s, %(year)s"
 msgstr ""
 
-#: calendars/models.py:126
+#: calendars/models.py:130
 #, python-format
 msgid "%(month)s %(weekday)s %(day)s, %(year)s"
 msgstr ""
 
-#: calendars/models.py:131
-msgid "Vintagearious"
-msgstr ""
-
-#: calendars/models.py:132
-msgid "Fogarious"
-msgstr ""
-
-#: calendars/models.py:133
-msgid "Frostarious"
-msgstr ""
-
-#: calendars/models.py:134
-msgid "Snowous"
-msgstr ""
-
 #: calendars/models.py:135
-msgid "Rainous"
-msgstr ""
+msgid "Vintagearious"
+msgstr "Vendemmiaio"
 
 #: calendars/models.py:136
-msgid "Windous"
-msgstr ""
+msgid "Fogarious"
+msgstr "Brumaio"
 
 #: calendars/models.py:137
-msgid "Buddal"
-msgstr ""
+msgid "Frostarious"
+msgstr "Frimaio"
 
 #: calendars/models.py:138
-msgid "Floweral"
-msgstr ""
+msgid "Snowous"
+msgstr "Nevoso"
 
 #: calendars/models.py:139
-msgid "Meadowal"
-msgstr ""
+msgid "Rainous"
+msgstr "Piovoso"
 
 #: calendars/models.py:140
-msgid "Reapidor"
-msgstr ""
+msgid "Windous"
+msgstr "Ventoso"
 
 #: calendars/models.py:141
-msgid "Heatidor"
-msgstr ""
+msgid "Buddal"
+msgstr "Germile"
 
 #: calendars/models.py:142
-msgid "Fruitidor"
-msgstr ""
+msgid "Floweral"
+msgstr "Fiorile"
+
+#: calendars/models.py:143
+msgid "Meadowal"
+msgstr "Pratile"
+
+#: calendars/models.py:144
+msgid "Reapidor"
+msgstr "Messidoro"
 
 #: calendars/models.py:145
-msgid "Primidi"
-msgstr ""
+msgid "Heatidor"
+msgstr "Termidoro"
 
 #: calendars/models.py:146
-msgid "Duodi"
-msgstr ""
-
-#: calendars/models.py:147
-msgid "Tridi"
-msgstr ""
-
-#: calendars/models.py:148
-msgid "Quartidi"
-msgstr ""
+msgid "Fruitidor"
+msgstr "Fruttidoro"
 
 #: calendars/models.py:149
-msgid "Quintidi"
-msgstr ""
+msgid "Primidi"
+msgstr "Primidì"
 
 #: calendars/models.py:150
-msgid "Sextidi"
-msgstr ""
+msgid "Duodi"
+msgstr "Duodì"
 
 #: calendars/models.py:151
-msgid "Septidi"
-msgstr ""
+msgid "Tridi"
+msgstr "Tridì"
 
 #: calendars/models.py:152
-msgid "Octidi"
-msgstr ""
+msgid "Quartidi"
+msgstr "Quartidì"
 
 #: calendars/models.py:153
-msgid "Nonidi"
-msgstr ""
+msgid "Quintidi"
+msgstr "Quintidì"
 
 #: calendars/models.py:154
-msgid "Decadi"
-msgstr ""
+msgid "Sextidi"
+msgstr "Sestidì"
+
+#: calendars/models.py:155
+msgid "Septidi"
+msgstr "Settidì"
+
+#: calendars/models.py:156
+msgid "Octidi"
+msgstr "Ottidì"
 
 #: calendars/models.py:157
-msgid "Celebration of Virtue"
-msgstr ""
+msgid "Nonidi"
+msgstr "Nonidì"
 
 #: calendars/models.py:158
-msgid "Celebration of Talent"
-msgstr ""
-
-#: calendars/models.py:159
-msgid "Celebration of Labour"
-msgstr ""
-
-#: calendars/models.py:160
-msgid "Celebration of Convictions"
-msgstr ""
+msgid "Decadi"
+msgstr "Decadì"
 
 #: calendars/models.py:161
-msgid "Celebration of Honors"
-msgstr ""
+msgid "Celebration of Virtue"
+msgstr "Celebrazione della Virtù"
 
 #: calendars/models.py:162
+msgid "Celebration of Talent"
+msgstr "Celebrazione del Genio"
+
+#: calendars/models.py:163
+msgid "Celebration of Labour"
+msgstr "Celebrazione del Lavoro"
+
+#: calendars/models.py:164
+msgid "Celebration of Convictions"
+msgstr "Celebrazione dell'Opinione"
+
+#: calendars/models.py:165
+msgid "Celebration of Honors"
+msgstr "Celebrazione delle Ricompense"
+
+#: calendars/models.py:166
 msgid "Celebration of the Revolution"
-msgstr ""
+msgstr "Celebrazione della Rivoluzione"
+
+#: chimera/templates/for_comma.html:1
+msgid "and"
+msgstr "e"
 
 #: chimera/templates/home.html:80
 msgid ""
@@ -289,19 +294,19 @@ msgstr ""
 "fatto con <i class=\"fa fa-heart pulse\"></i> da Giorgio Audrito - © 2024 "
 "tutti i diritti riservati"
 
-#: chimera/views.py:108 setting/views.py:13
+#: chimera/views.py:106 setting/views.py:16
 msgid "settings"
 msgstr "ambientazioni"
 
-#: chimera/views.py:108
+#: chimera/views.py:106 story/views.py:18
 msgid "campaigns"
 msgstr "campagne"
 
-#: chimera/views.py:108
+#: chimera/views.py:107
 msgid "characters"
 msgstr "personaggi"
 
-#: chimera/views.py:108
+#: chimera/views.py:107
 msgid "items"
 msgstr "oggetti"
 
@@ -326,3 +331,65 @@ msgstr "<h3>Le mie {element}</h3>"
 #, python-brace-format
 msgid "<h3>Other {element}</h3>"
 msgstr "<h3>Altre {element}</h3>"
+
+#: story/tables.py:21 story/templates/story/details.html:31
+#, fuzzy
+#| msgid "November"
+msgid "Members"
+msgstr "Membri"
+
+#: story/templates/story/details.html:35
+msgid "none"
+msgstr "nessuno"
+
+#: story/templates/story/details.html:41
+#, fuzzy
+#| msgid "Wrong passphrase"
+msgid "passphrase"
+msgstr "codice"
+
+#: story/templates/story/details.html:45
+msgid "Join"
+msgstr "Unisciti"
+
+#: story/templates/story/details.html:51
+msgid "Your join request is pending."
+msgstr "La tua richiesta di unirti è in attesa."
+
+#: story/templates/story/details.html:53
+msgid "Your join request has been refused."
+msgstr "La tua richiesta di unirti è stata rifiutata."
+
+#: story/templates/story/details.html:63
+#, fuzzy
+#| msgid "characters"
+msgid "Chapters"
+msgstr "Capitoli"
+
+#: story/views.py:54
+msgid "You already joined this campaign"
+msgstr "Ti sei già unito a questa campagna"
+
+#: story/views.py:56
+msgid "You already asked to join this campaign"
+msgstr "Hai già chiesto di unirti a questa campagna"
+
+#: story/views.py:58
+msgid "Your join request to this campaign has been refused"
+msgstr "La tua richiesta di unirti a questa campagna è stata rifiutata"
+
+#: story/views.py:62
+msgid "Joining this campaign is not allowed"
+msgstr "Non è possibile unirsi a questa campagna"
+
+#: story/views.py:66
+msgid "Insert the passphrase"
+msgstr "Inserisci il codice"
+
+#: story/views.py:69
+msgid "Wrong passphrase"
+msgstr "Codice errato"
+
+#: story/views.py:72
+msgid "Join request successful"
+msgstr "Richiesta di unirti inviata con successo"
