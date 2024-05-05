@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-20 16:33+0000\n"
+"POT-Creation-Date: 2024-05-05 05:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -282,11 +282,140 @@ msgstr "Celebrazione delle Ricompense"
 msgid "Celebration of the Revolution"
 msgstr "Celebrazione della Rivoluzione"
 
+#: character/sheet.py:61
+#, python-brace-format
+msgid "Not enough experience points to spend: {req} needed, {avail} left"
+msgstr ""
+"Punti esperienza rimasti insufficienti: richiesti {req}, rimasti {avail}"
+
+#: character/sheet.py:70
+#, python-brace-format
+msgid "Invalid experience amount {exp}"
+msgstr "Ammontare di esperienza {exp} non valido"
+
+#: character/sheet.py:114
+#, python-brace-format
+msgid "Descriptor for {id} missing in {val}"
+msgstr "Descrittore di {id} mancante in {val}"
+
+#: character/sheet.py:116
+#, python-brace-format
+msgid "Unable to parse {val} as {id}"
+msgstr "Impossible interpretare {val} come {id}"
+
+#: character/sheet.py:118
+#, python-brace-format
+msgid "Cannot select {val}, requirement failed"
+msgstr "Impossibile selezionare {val}, requisito non rispettato"
+
+#: character/sheet.py:122
+#, python-brace-format
+msgid "Cannot select {val}, already selected"
+msgstr "Impossibile selezionare {val} perché già presente"
+
+#: character/sheet.py:125
+#, python-brace-format
+msgid "Cannot select {val}, not in available options"
+msgstr "Impossibile selezionare {val}, non rientra tra le opzioni disponibili"
+
+#: character/sheet.py:244
+#, python-brace-format
+msgid ""
+"Quality {id} parameters {freq}/{int} outside of bounds {bfn}/{bin}-{bfx}/"
+"{bix}"
+msgstr ""
+"Parametri {freq}/{int} della qualità {id} fuori dai limiti {bfn}/{bin}-{bfx}/"
+"{bix}"
+
+#: character/templates/character/sheet.html:22
+msgid "Setting parameters"
+msgstr "Parametri di ambientazione"
+
+#: character/templates/character/sheet.html:73
+msgid "Body"
+msgstr "Fisico"
+
+#: character/templates/character/sheet.html:77
+msgid "Mind"
+msgstr "Mente"
+
+#: character/templates/character/sheet.html:81
+msgid "Story"
+msgstr "Storia"
+
+#: character/templates/character/sheet.html:92
+msgid "Edit name and description"
+msgstr "Modifica nome e descrizione"
+
+#: character/templates/character/sheet.html:94
+msgid "Save name and description"
+msgstr "Salva nome e descrizione"
+
+#: character/templates/character/sheet.html:101
+msgid "Experience"
+msgstr "Esperienza"
+
+#: character/templates/character/sheet.html:116
+msgid "Gifts"
+msgstr "Pregi"
+
+#: character/templates/character/sheet.html:120
+msgid "Flaws"
+msgstr "Difetti"
+
+#: character/templates/character/sheet.html:126
+msgid "Attributes"
+msgstr "Attributi"
+
+#: character/templates/character/sheet.html:135
+msgid "Abilities"
+msgstr "Abilità"
+
+#: character/templates/character/sheet.html:144
+msgid "Actions"
+msgstr "Azioni"
+
+#: character/templates/character/sheet.html:147
+msgid "Stats"
+msgstr "Statistiche"
+
+#: character/templates/character/sheet.html:158
+msgid "Undo and forget"
+msgstr "Annulla per sempre"
+
+#: character/templates/character/sheet.html:166
+msgid "Undo"
+msgstr "Annulla"
+
+#: character/templates/character/sheet.html:174
+msgid "Redo"
+msgstr "Ripeti"
+
+#: character/templates/character/sheet.html:182
+msgid "Confirm"
+msgstr "Conferma"
+
+#: character/templates/character/sheet.html:188
+msgid "Confirmed version"
+msgstr "Versione confermata"
+
+#: character/templates/character/sheet.html:195
+msgid "Edit"
+msgstr "Modifica"
+
+#: character/views.py:15 chimera/views.py:107
+msgid "characters"
+msgstr "personaggi"
+
 #: chimera/templates/for_comma.html:1
 msgid "and"
 msgstr "e"
 
-#: chimera/templates/home.html:80
+#: chimera/templates/header.html:10
+msgid "login"
+msgstr ""
+
+#: chimera/templates/home.html:39
 msgid ""
 "made with <i class=\"fa fa-heart pulse\"></i> by Giorgio Audrito - © 2024 "
 "all rights reserved"
@@ -298,13 +427,9 @@ msgstr ""
 msgid "settings"
 msgstr "ambientazioni"
 
-#: chimera/views.py:106 story/views.py:18
+#: chimera/views.py:106 story/views.py:17
 msgid "campaigns"
 msgstr "campagne"
-
-#: chimera/views.py:107
-msgid "characters"
-msgstr "personaggi"
 
 #: chimera/views.py:107
 msgid "items"
@@ -322,19 +447,43 @@ msgstr "Punteggio minimo"
 msgid "Original only"
 msgstr "Solo originali"
 
-#: social/views.py:18
+#: social/views.py:22
 #, python-brace-format
+msgctxt "feminine"
 msgid "<h3>My {element}</h3>"
 msgstr "<h3>Le mie {element}</h3>"
 
-#: social/views.py:19
+#: social/views.py:22
 #, python-brace-format
+msgctxt "masculine"
+msgid "<h3>My {element}</h3>"
+msgstr "<h3>I miei {element}</h3>"
+
+#: social/views.py:23
+#, python-brace-format
+msgctxt "feminine"
 msgid "<h3>Other {element}</h3>"
 msgstr "<h3>Altre {element}</h3>"
 
-#: story/tables.py:21 story/templates/story/details.html:31
-#, fuzzy
-#| msgid "November"
+#: social/views.py:23
+#, python-brace-format
+msgctxt "masculine"
+msgid "<h3>Other {element}</h3>"
+msgstr "<h3>Altri {element}</h3>"
+
+#: social/views.py:25
+#, python-brace-format
+msgctxt "feminine"
+msgid "<h3>All {element}</h3>"
+msgstr "<h3>Tutte le {element}</h3>"
+
+#: social/views.py:25
+#, python-brace-format
+msgctxt "masculine"
+msgid "<h3>All {element}</h3>"
+msgstr "<h3>Tutti i {element}</h3>"
+
+#: story/tables.py:22 story/templates/story/details.html:31
 msgid "Members"
 msgstr "Membri"
 
@@ -342,54 +491,78 @@ msgstr "Membri"
 msgid "none"
 msgstr "nessuno"
 
-#: story/templates/story/details.html:41
-#, fuzzy
-#| msgid "Wrong passphrase"
+#: story/templates/story/details.html:42
 msgid "passphrase"
 msgstr "codice"
 
-#: story/templates/story/details.html:45
+#: story/templates/story/details.html:46
 msgid "Join"
 msgstr "Unisciti"
 
-#: story/templates/story/details.html:51
+#: story/templates/story/details.html:52
+msgid "Pending"
+msgstr "In attesa"
+
+#: story/templates/story/details.html:64
 msgid "Your join request is pending."
 msgstr "La tua richiesta di unirti è in attesa."
 
-#: story/templates/story/details.html:53
+#: story/templates/story/details.html:66
 msgid "Your join request has been refused."
 msgstr "La tua richiesta di unirti è stata rifiutata."
 
-#: story/templates/story/details.html:63
-#, fuzzy
-#| msgid "characters"
+#: story/templates/story/details.html:72
+msgid "New character"
+msgstr "Nuovo personaggio"
+
+#: story/views.py:23
 msgid "Chapters"
 msgstr "Capitoli"
 
-#: story/views.py:54
+#: story/views.py:23
+msgid "Characters"
+msgstr "Personaggi"
+
+#: story/views.py:55
+msgid "You are not authenticated"
+msgstr "Non sei autenticato"
+
+#: story/views.py:62
 msgid "You already joined this campaign"
 msgstr "Ti sei già unito a questa campagna"
 
-#: story/views.py:56
+#: story/views.py:64
 msgid "You already asked to join this campaign"
 msgstr "Hai già chiesto di unirti a questa campagna"
 
-#: story/views.py:58
+#: story/views.py:66
 msgid "Your join request to this campaign has been refused"
 msgstr "La tua richiesta di unirti a questa campagna è stata rifiutata"
 
-#: story/views.py:62
+#: story/views.py:70
 msgid "Joining this campaign is not allowed"
 msgstr "Non è possibile unirsi a questa campagna"
 
-#: story/views.py:66
+#: story/views.py:74
 msgid "Insert the passphrase"
 msgstr "Inserisci il codice"
 
-#: story/views.py:69
+#: story/views.py:77
 msgid "Wrong passphrase"
 msgstr "Codice errato"
 
-#: story/views.py:72
+#: story/views.py:82
 msgid "Join request successful"
 msgstr "Richiesta di unirti inviata con successo"
+
+#: story/views.py:85
+msgid "You are not a member of this campaign"
+msgstr "Non sei un membro di questa campagna"
+
+#: story/views.py:95
+msgid "You are not an owner of this campaign"
+msgstr "Non sei un proprietario di questa campagna"
+
+#: story/views.py:106
+msgid "Requested user does not exist"
+msgstr "Utente richiesto non esistente"
