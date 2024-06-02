@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-05 05:49+0000\n"
+"POT-Creation-Date: 2024-06-02 17:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -282,43 +282,43 @@ msgstr "Celebrazione delle Ricompense"
 msgid "Celebration of the Revolution"
 msgstr "Celebrazione della Rivoluzione"
 
-#: character/sheet.py:61
+#: character/sheet.py:63
 #, python-brace-format
 msgid "Not enough experience points to spend: {req} needed, {avail} left"
 msgstr ""
 "Punti esperienza rimasti insufficienti: richiesti {req}, rimasti {avail}"
 
-#: character/sheet.py:70
+#: character/sheet.py:72
 #, python-brace-format
 msgid "Invalid experience amount {exp}"
 msgstr "Ammontare di esperienza {exp} non valido"
 
-#: character/sheet.py:114
+#: character/sheet.py:116
 #, python-brace-format
 msgid "Descriptor for {id} missing in {val}"
 msgstr "Descrittore di {id} mancante in {val}"
 
-#: character/sheet.py:116
+#: character/sheet.py:118
 #, python-brace-format
 msgid "Unable to parse {val} as {id}"
 msgstr "Impossible interpretare {val} come {id}"
 
-#: character/sheet.py:118
+#: character/sheet.py:120
 #, python-brace-format
 msgid "Cannot select {val}, requirement failed"
 msgstr "Impossibile selezionare {val}, requisito non rispettato"
 
-#: character/sheet.py:122
+#: character/sheet.py:124
 #, python-brace-format
 msgid "Cannot select {val}, already selected"
 msgstr "Impossibile selezionare {val} perché già presente"
 
-#: character/sheet.py:125
+#: character/sheet.py:127
 #, python-brace-format
 msgid "Cannot select {val}, not in available options"
 msgstr "Impossibile selezionare {val}, non rientra tra le opzioni disponibili"
 
-#: character/sheet.py:244
+#: character/sheet.py:246
 #, python-brace-format
 msgid ""
 "Quality {id} parameters {freq}/{int} outside of bounds {bfn}/{bin}-{bfx}/"
@@ -326,6 +326,10 @@ msgid ""
 msgstr ""
 "Parametri {freq}/{int} della qualità {id} fuori dai limiti {bfn}/{bin}-{bfx}/"
 "{bix}"
+
+#: character/sheet.py:377
+msgid "Cannot increase beyond score limit"
+msgstr "Impossibile incrementare oltre il limite di punteggio"
 
 #: character/templates/character/sheet.html:22
 msgid "Setting parameters"
@@ -379,27 +383,71 @@ msgstr "Azioni"
 msgid "Stats"
 msgstr "Statistiche"
 
-#: character/templates/character/sheet.html:158
+#: character/templates/character/sheet.html:167
+#: character/templates/character/sheet.html:172
+#: character/templates/character/sheet.html:196
+msgid "Damage"
+msgstr "Danni"
+
+#: character/templates/character/sheet.html:178
+msgid "Type of damage:"
+msgstr "Tipo di danni"
+
+#: character/templates/character/sheet.html:189
+msgid "Damage amount"
+msgstr "Ammontare di danni"
+
+#: character/templates/character/sheet.html:195
+#: character/templates/character/sheet.html:227
+#: character/templates/character/sheet.html:264
+msgid "Close"
+msgstr "Chiudi"
+
+#: character/templates/character/sheet.html:206
+#: character/templates/character/sheet.html:211
+#: character/templates/character/sheet.html:228
+msgid "Fatigue"
+msgstr "Fatica"
+
+#: character/templates/character/sheet.html:238
+#: character/templates/character/sheet.html:243
+#: character/templates/character/sheet.html:265
+msgid "Rest"
+msgstr "Riposo"
+
+#: character/templates/character/sheet.html:247
+msgid "Type of rest:"
+msgstr "Tipo di riposo:"
+
+#: character/templates/character/sheet.html:249
+msgid "short"
+msgstr "breve"
+
+#: character/templates/character/sheet.html:250
+msgid "long"
+msgstr "lungo"
+
+#: character/templates/character/sheet.html:308
 msgid "Undo and forget"
 msgstr "Annulla per sempre"
 
-#: character/templates/character/sheet.html:166
+#: character/templates/character/sheet.html:316
 msgid "Undo"
 msgstr "Annulla"
 
-#: character/templates/character/sheet.html:174
+#: character/templates/character/sheet.html:324
 msgid "Redo"
 msgstr "Ripeti"
 
-#: character/templates/character/sheet.html:182
+#: character/templates/character/sheet.html:332
 msgid "Confirm"
 msgstr "Conferma"
 
-#: character/templates/character/sheet.html:188
+#: character/templates/character/sheet.html:338
 msgid "Confirmed version"
 msgstr "Versione confermata"
 
-#: character/templates/character/sheet.html:195
+#: character/templates/character/sheet.html:345
 msgid "Edit"
 msgstr "Modifica"
 
