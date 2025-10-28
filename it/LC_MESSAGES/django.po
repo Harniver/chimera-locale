@@ -294,7 +294,7 @@ msgid "Invalid experience amount {exp}"
 msgstr "Ammontare di esperienza {exp} non valido"
 
 #: character/sheet.py:111
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Unable to parse {val}"
 msgstr "Impossible interpretare {val}"
 
@@ -304,7 +304,7 @@ msgid "Unable to parse {val} as {id}"
 msgstr "Impossible interpretare {val} come {id}"
 
 #: character/sheet.py:122
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Descriptor {desc} for {id} not allowed"
 msgstr "Descrittore {desc} per {id} non consentito"
 
