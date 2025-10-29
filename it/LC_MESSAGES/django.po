@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 11:13+0000\n"
+"POT-Creation-Date: 2025-10-29 20:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -293,42 +293,47 @@ msgstr ""
 msgid "Invalid experience amount {exp}"
 msgstr "Ammontare di esperienza {exp} non valido"
 
-#: character/sheet.py:111
+#: character/sheet.py:109
 #, python-brace-format
 msgid "Unable to parse {val}"
 msgstr "Impossible interpretare {val}"
 
-#: character/sheet.py:113
+#: character/sheet.py:111
 #, python-brace-format
 msgid "Unable to parse {val} as {id}"
 msgstr "Impossible interpretare {val} come {id}"
 
 #: character/sheet.py:122
 #, python-brace-format
+msgid "Cannot select {val}, {id} already selected"
+msgstr "Impossibile selezionare {val}, {id} è già selezionato"
+
+#: character/sheet.py:126
+#, python-brace-format
 msgid "Descriptor {desc} for {id} not allowed"
 msgstr "Descrittore {desc} per {id} non consentito"
 
-#: character/sheet.py:124
+#: character/sheet.py:128
 #, python-brace-format
 msgid "Descriptor for {id} missing in {val}"
 msgstr "Descrittore di {id} mancante in {val}"
 
-#: character/sheet.py:126
+#: character/sheet.py:130
 #, python-brace-format
 msgid "Cannot select {val}, requirement failed"
 msgstr "Impossibile selezionare {val}, requisito non rispettato"
 
-#: character/sheet.py:131
+#: character/sheet.py:134
 #, python-brace-format
 msgid "Cannot select {val}, {type} already selected"
 msgstr "Impossibile selezionare {val} perché {type} è già presente"
 
-#: character/sheet.py:134
+#: character/sheet.py:137
 #, python-brace-format
 msgid "Cannot select {val}, not in available options"
 msgstr "Impossibile selezionare {val}, non rientra tra le opzioni disponibili"
 
-#: character/sheet.py:253
+#: character/sheet.py:258
 #, python-brace-format
 msgid ""
 "Quality {id} parameters {freq}/{int} outside of bounds {bfn}/{bin}-{bfx}/"
@@ -337,7 +342,7 @@ msgstr ""
 "Parametri {freq}/{int} della qualità {id} fuori dai limiti {bfn}/{bin}-{bfx}/"
 "{bix}"
 
-#: character/sheet.py:384
+#: character/sheet.py:389
 msgid "Cannot increase beyond score limit"
 msgstr "Impossibile incrementare oltre il limite di punteggio"
 
